@@ -10,10 +10,15 @@
 		00570980245209B400093307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0057097F245209B400093307 /* AppDelegate.swift */; };
 		00570982245209B400093307 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00570981245209B400093307 /* SceneDelegate.swift */; };
 		00570985245209B400093307 /* Digital_Wallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00570983245209B400093307 /* Digital_Wallet.xcdatamodeld */; };
-		00570987245209B400093307 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00570986245209B400093307 /* ContentView.swift */; };
+		00570987245209B400093307 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00570986245209B400093307 /* HomePage.swift */; };
 		00570989245209B700093307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00570988245209B700093307 /* Assets.xcassets */; };
 		0057098C245209B700093307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0057098B245209B700093307 /* Preview Assets.xcassets */; };
 		0057098F245209B700093307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0057098D245209B700093307 /* LaunchScreen.storyboard */; };
+		00639BF92452CFC000153E6B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00639BF82452CFC000153E6B /* CardView.swift */; };
+		00639BFB2452CFCD00153E6B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00639BFA2452CFCD00153E6B /* SplashScreen.swift */; };
+		00639BFD2452CFE900153E6B /* AddPayCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00639BFC2452CFE900153E6B /* AddPayCardView.swift */; };
+		00639BFF2452D00400153E6B /* AddIDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00639BFE2452D00400153E6B /* AddIDCardView.swift */; };
+		00639C012452D01B00153E6B /* AddOTHERCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00639C002452D01B00153E6B /* AddOTHERCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +26,16 @@
 		0057097F245209B400093307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00570981245209B400093307 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		00570984245209B400093307 /* Digital_Wallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Digital_Wallet.xcdatamodel; sourceTree = "<group>"; };
-		00570986245209B400093307 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00570986245209B400093307 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		00570988245209B700093307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0057098B245209B700093307 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0057098E245209B700093307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00570990245209B700093307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00639BF82452CFC000153E6B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		00639BFA2452CFCD00153E6B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		00639BFC2452CFE900153E6B /* AddPayCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayCardView.swift; sourceTree = "<group>"; };
+		00639BFE2452D00400153E6B /* AddIDCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIDCardView.swift; sourceTree = "<group>"; };
+		00639C002452D01B00153E6B /* AddOTHERCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOTHERCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +70,10 @@
 			children = (
 				0057097F245209B400093307 /* AppDelegate.swift */,
 				00570981245209B400093307 /* SceneDelegate.swift */,
-				00570986245209B400093307 /* ContentView.swift */,
+				00570986245209B400093307 /* HomePage.swift */,
+				00639BF82452CFC000153E6B /* CardView.swift */,
+				00639BFA2452CFCD00153E6B /* SplashScreen.swift */,
+				00639C022452D02000153E6B /* Add Cards */,
 				00570988245209B700093307 /* Assets.xcassets */,
 				0057098D245209B700093307 /* LaunchScreen.storyboard */,
 				00570990245209B700093307 /* Info.plist */,
@@ -76,6 +89,16 @@
 				0057098B245209B700093307 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00639C022452D02000153E6B /* Add Cards */ = {
+			isa = PBXGroup;
+			children = (
+				00639BFE2452D00400153E6B /* AddIDCardView.swift */,
+				00639BFC2452CFE900153E6B /* AddPayCardView.swift */,
+				00639C002452D01B00153E6B /* AddOTHERCardView.swift */,
+			);
+			path = "Add Cards";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00639BFB2452CFCD00153E6B /* SplashScreen.swift in Sources */,
+				00639BFF2452D00400153E6B /* AddIDCardView.swift in Sources */,
 				00570980245209B400093307 /* AppDelegate.swift in Sources */,
 				00570985245209B400093307 /* Digital_Wallet.xcdatamodeld in Sources */,
-				00570987245209B400093307 /* ContentView.swift in Sources */,
+				00570987245209B400093307 /* HomePage.swift in Sources */,
+				00639C012452D01B00153E6B /* AddOTHERCardView.swift in Sources */,
 				00570982245209B400093307 /* SceneDelegate.swift in Sources */,
+				00639BF92452CFC000153E6B /* CardView.swift in Sources */,
+				00639BFD2452CFE900153E6B /* AddPayCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
